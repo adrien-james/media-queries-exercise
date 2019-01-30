@@ -1,0 +1,52 @@
+/*mobile*/
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    background-color: lightgrey;
+    margin: .5em;
+    padding: .5em;
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    height: 224px;
+    width: 339px;
+    position: relative;
+    left: 2em;
+}
+
+.alert-info {
+    background-color: #CBFDFD;
+    border: 2px solid #CCCDCD;
+    text-align: center;
+    height: 1.5em;
+    padding: 1em;
+
+}
+.alert-info> a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.sub-section {
+    font-style: italic;
+    margin-bottom: 5em;
+    margin-top: 3em;
+}
+
+/*desktop view*/
+@media screen and (min-width:992px) {
+    h1 {
+
+    }
+}
