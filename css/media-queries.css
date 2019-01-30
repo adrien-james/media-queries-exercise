@@ -46,7 +46,59 @@ img {
 
 /*desktop view*/
 @media screen and (min-width:992px) {
-    h1 {
 
+body{
+    margin-left:2em;
+    margin-top:3em;
+}
+
+h1{
+    text-align:left;
+    float:left;
+}
+
+li{
+
+    text-align:right;
+    display:inline;
+    background-color:white;
+}
+
+ul{
+    margin:32px;
+    float:right;
+}
+
+img{
+    height: 385px;
+    width: 890px;
+    margin-top:1em;
+    margin-bottom:1em;
+
+}
+
+footer{
+    padding-top:15em;
+}
+
+.hidden-on-desktop{
+
+    display:none;
+}
+
+.main{
+    width:45%;
+    float:left;
+    position:absolute;
+
+}
+
+.sub-section{
+    width:25%;
+    position:relative;
+    left:60%;
+    margin-top:0;
     }
+
+
 }
