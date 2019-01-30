@@ -44,6 +44,10 @@ img {
     margin-top: 3em;
 }
 
+#social-media-links img {
+    display: none;
+}
+
 /*desktop view*/
 @media screen and (min-width:992px) {
 
@@ -98,7 +102,16 @@ footer{
     position:relative;
     left:60%;
     margin-top:0;
-    }
+}
+
+#social-media-links img {
+    display: inline;
+    height: 50px;
+    width: 40px;
+    position: relative;
+    float: right;
+    left: -10em;
+}
 
 
 }
